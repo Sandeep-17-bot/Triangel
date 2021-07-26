@@ -57,10 +57,12 @@ check.addEventListener('click', function(){
     document.getElementById("output2").innerHTML = area
     error.style.display = "none"
     output2.style.display= "block"
+    output.style.display="none"
     
 }else{
     error.style.display = "block"
     output2.style.display= "none"
+    output.style.display= "none"
     document.getElementById("error").innerHTML = "The sum of two numbers shold be greater than third number"
 }
 })
