@@ -8,7 +8,7 @@ body{
     min-height: 100vh;
     margin: auto;
     text-align: center;
-    padding-top: 7rem;
+    /* padding-top: 7rem; */
     font-family: 'Shadows Into Light', cursive;
     /* padding: auto; */
     margin: auto;
@@ -47,8 +47,8 @@ input{
     cursor: text;
 }
 p{
-font-size: 1.2rem;
-font-weight: bold;
+font-size: 2rem;
+/* font-weight: bold; */
 }
 #check{
     font-family: 'Shadows Into Light', cursive;
@@ -63,7 +63,7 @@ font-weight: bold;
     font-size: 1.8rem;
 }
 #output{
-font-size: 1.2rem;
+font-size: 1.5rem;
 font-weight: bold;
 max-width: 403px;
 margin: auto;

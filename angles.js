@@ -16,13 +16,13 @@ check.addEventListener('click',function(){
         // error.style.display = "none"
         // output.style.display= "block"
         // document.getElementById("output").innerHTML = c,"great"
-        showError("Great Man! That Makes an trianlge")
+        showError("Great Man! That Makes  triangle")
 
     }else{
         // output.style.display="none"
         // error.style.display= "block"
         // document.getElementById("error").innerHTML = "opps"
-        showError("Sorry man we can't make with given data, try again")
+        showError("Sorry man we can't make triangle with given data, try with another angles")
     }
 
 })
