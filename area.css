@@ -77,7 +77,6 @@ label{
 #height{
     display: none;
 }
-
 #main{
     margin: auto;
 }
@@ -86,6 +85,9 @@ input{
     min-height: 3vh;
     border-radius: 0.5rem;
     cursor: text;
+}
+.round{
+    cursor: pointer;
 }
 #calculate1{
     font-family: 'Shadows Into Light', cursive;

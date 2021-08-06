@@ -1,13 +1,11 @@
-// _________________________________________________
-// If you have base and height buttona taking input
+
 const radio1 = document.querySelector("#radio1")
 const base = document.querySelector("#base")
-
+const form1 = document.querySelector('#form1')
 
 // This is area section if you have base and height
 const inputa = document.querySelector("#input1");
 const inputb = document.querySelector("#input2");
-const submit = document.querySelector("#calculate1");
 const outputs = document.querySelector("#output")
 
 
@@ -17,8 +15,8 @@ height.style.display="none";
 })
 
 
-submit.addEventListener('click',()=> {
-    
+form1.addEventListener('submit',(e)=> {
+    e.preventDefault();
 let avalue = Number(inputa.value)
 let bvalue = Number(inputb.value)
 console.log(avalue,bvalue)
@@ -38,15 +36,17 @@ const radio2 = document.querySelector("#radio2")
 const input3 = document.querySelector("#input3")
 const input4 = document.querySelector("#input4")
 const input5 = document.querySelector("#input5")
-const check = document.querySelector("#calculate2")
+// const check = document.querySelector("#calculate2")
 const error = document.querySelector("#error")
+const form2 = document.querySelector("#form2")
 
 radio2.addEventListener('click',function(){
     base.style.display = "none";
     height.style.display = "block"
 })
 
-check.addEventListener('click', function(){
+form2.addEventListener('submit', function(e){
+    e.preventDefault();
     let a= Number(input3.value)
     let b = Number(input4.value)
     let c = Number(input5.value)

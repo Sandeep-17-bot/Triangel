@@ -1,9 +1,10 @@
 const inputa = document.querySelector("#inputa")
 const inputb = document.querySelector("#inputb")
 const check = document.querySelector("#check")
-// const eror = document.querySelector("#error")
+const form = document.querySelector("#form")
 
-check.addEventListener('click',function(){
+form.addEventListener('submit',function(e){
+    e.preventDefault();
     // console.log("clicked")
     let aValue = Number(inputa.value)
     let bValue = Number(inputb.value)

@@ -9,21 +9,23 @@
 <link rel="stylesheet" href="angles.css">
 <body>
     <a href="index.html">Goback</a>
+    <form action="" id="form">
     <section id="mainbody">
         <p>Enter the angles in below input boxes and we will tell you if those angles make a triangel</p>
         <div class="abc">
     <label for="">
-       a:<input id="inputa" type="number" min="1">
+       a:<input id="inputa" type="number" min="1" required>
     </label>
     <label for="">
-        b:<input id="inputb" type="number" min="1">
+        b:<input id="inputb" type="number" min="1" required>
      </label> <label for="">
-        c:<input id="inputc" type="number" min="1">
+        c:<input id="inputc" type="number" min="1" required>
      </label>
     </div>
 
-     <button id="check">Enter</button>
+     <button id="check" type="submit">Enter</button>
     </section>
+</form>
      <div id="output"></div>
      <div id="error"></div>
 </body>

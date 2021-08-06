@@ -1,40 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>hYPOTENUSE</title>
-</head>
-<link rel="stylesheet" href="hypo.css">
-<body>
-    <a href="index.html"> Go Back</a>
-    <div id="mainbody">
-    <p class="sub">Enter the length of sides of right angle triangle</p>
-    <P>hypotenuse is the longest side of a right-angled triangle</P>
-    <div class="div">
-    <img src="https://www.learntocalculate.com/wp-content/uploads/2020/04/hypotenuse.png" alt="" >
-    <div class="ab">
-    <div>
-        <label for="inputa" >
-            a:<input type="number" min="1" id="inputa"  >
-        </label>
-    </div>
-    <div>
-        <label for="">
-            b:<input type="number" min="1" id="inputb">
-        </label>
-    </div>
-    </div>
-</div>
-<button id="check">check</button>
-</div>
-<div class="op">
-    <!-- <div class="para">Hypotenuse will be shown here</div> -->
-    <div id="output" class="para">out will be shown here</div>
-    <div id="error"></div>
-</div>
 
-</body>
-<script src="hypo.js"></script>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>hYPOTENUSE</title>
+    </head>
+    <link rel="stylesheet" href="hypo.css">
+
+    <body>
+        <a href="index.html"> Go Back</a>
+        <form action="" id="form">
+            <div id="mainbody">
+                <p class="sub">Enter the length of sides of right angle triangle</p>
+                <P>hypotenuse is the longest side of a right-angled triangle</P>
+                <div class="div">
+                    <img src="https://www.learntocalculate.com/wp-content/uploads/2020/04/hypotenuse.png" alt="">
+                    <div class="ab">
+                        <div>
+                            <label for="inputa">
+                                a:<input type="number" min="1" id="inputa" required>
+                            </label>
+                        </div>
+                        <div>
+                            <label for="">
+                                b:<input type="number" min="1" id="inputb" required>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <button id="check" type="submit">check</button>
+            </div>
+        </form>
+        <div class="op">
+            <!-- <div class="para">Hypotenuse will be shown here</div> -->
+            <div id="output" class="para">out will be shown here</div>
+            <div id="error"></div>
+        </div>
+
+    </body>
+    <script src="hypo.js"></script>
+
 </html>

@@ -1,73 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Area</title>
-</head>
-<link rel="stylesheet" href="area.css">
-<body>
-    <a href="index.html"> Go Back</a>
-    <div id="mainbody">
-        
-<div class="calarea">Calculate Area of Triangel</div>
-<p>Select an option below as per the data you have for a triangle</p>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Area</title>
+    </head>
+    <link rel="stylesheet" href="area.css">
+
+    <body>
+        <a href="index.html"> Go Back</a>
+        <div id="mainbody">
+
+            <div class="calarea">Calculate Area of Triangel</div>
+            <p>Select an option below as per the data you have for a triangle</p>
 
 
-<div id="main">
-    <!-- Input button if you have base and height -->
-    <label for="radio1">
-        <input type="radio" id="radio1" name="hello">
-        If you have base and height
-    </label>
+            <div id="main">
+                <!-- Input button if you have base and height -->
+                <label for="radio1" >
+                    <input class="round" type="radio" id="radio1" name="hello" required>
+                    If you have base and height
+                </label>
+                
+                <label for="radio2">
+                    <input class="round" type="radio" id="radio2" name="hello" required>
+                    If you have length of three sides
+                </label>
+                
+                <!-- Section1 if only base and height -->
+                <form  id="form1">
+                    <section id="base">
 
-    <label for="radio2">
-    <input type="radio" id="radio2" name="hello">
-        If you have lenght of three sides
-    </label>
+                        <div class="a">
+                            a:<input type="number" id="input1" min="1" required>
+                        </div>
+                        <div class="a">
+                            b:<input type="number" name="" id="input2" min="1" required>
+                        </div>
+                        <button id="calculate1" type="submit">Submit</button>
+                    </section>
+                </form>
 
-<!-- Section1 if only base and height -->
-    <section id="base">
-       
-     <div class="a">
-         a:<input type="number" id="input1" min="1">
-     </div>
-     <div class="a">
-         b:<input type="number" name="" id="input2" min="1">
-     </div>
-     <button id="calculate1">Submit</button>
-  
-    </section>
+                <!-- If you have three sides -->
 
-    <!-- If you have three sides -->
-   
+                <form  id="form2">
+                <section id="height">
 
-    <section id="height">
+                    <div class="ab">
+                        a:<input type="number" name="" id="input3" min="1" required>
+                    </div>
+                    <div>
+                        b:<input type="number" id="input4" min="1" required>
+                    </div>
+                    <div>
+                        c:<input type="number" id="input5" min="1" required>
+                    </div>
 
-<div class="ab">
-    a:<input type="number" name="" id="input3" min="1">
-</div>
-<div>
-    b:<input type="number" id="input4" min="1">
-</div>
-<div>
-    c:<input type="number" id="input5" min="1">
-</div>
+                    <button type="submit" id="calculate2">Calculate</button>
+                </section>
+            </form>
+            </div>
+        </div>
 
-<button id="calculate2">Calculate</button>
-</section>
-
-</div>
-</div>
-
-<div class="op">
-<div id="output"></div>
-<div id="output2"></div>
-<div id="error"></div>
-</div>
+        <div class="op">
+            <div id="output"></div>
+            <div id="output2"></div>
+            <div id="error"></div>
+        </div>
 
 
-</body>
-<script src="area.js"></script>
+    </body>
+    <script src="area.js"></script>
+
 </html>
