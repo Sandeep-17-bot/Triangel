@@ -1,18 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
 body{
 
-    background-image: url(https://wallpapercave.com/wp/wp4911987.jpg);
+    background-image: url(https://static.vecteezy.com/system/resources/previews/000/598/701/original/3d-triangle-futuristic-blue-background-vector.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100% 100%;
     min-height: 100vh;
     margin: auto;
     text-align: center;
- 
-    font-family: 'Shadows Into Light', cursive;
-
-    
-   
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    margin-top: 4rem;
 }
 
 #mainbody{
@@ -26,13 +23,16 @@ body{
     padding-right: 1rem;
     border-radius: 1rem;
     margin-bottom: 4rem;
+    margin-top: 2rem;;
 }
 a{
     font-style: italic;
     font-weight: bold;
     font-size: 2.5rem;
     text-decoration: none;
-    padding: 3rem;
+    color: rgb(19, 1, 1);
+    background-color: white;
+    border-radius: 0.5rem;
 }
 a:hover{
     text-decoration: underline solid rgb(32, 153, 133);
@@ -76,7 +76,7 @@ font-size: 1.5rem;
     font-weight: bold;
 }
 #submit{
-    font-family: 'Shadows Into Light', cursive ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
     border-radius: 1rem;
     font-size: 1.5rem;
