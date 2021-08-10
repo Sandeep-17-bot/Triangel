@@ -54,7 +54,7 @@ form2.addEventListener('submit', function(e){
     var s = (a+b+c)/2
     // console.log(s)
     var area = Math.sqrt(s*(s-a)*(s-b)*(s-c))
-    document.getElementById("output2").innerHTML = area
+    document.getElementById("output2").innerHTML = area.toPrecision(5)
     error.style.display = "none"
     output2.style.display= "block"
     output.style.display="none"

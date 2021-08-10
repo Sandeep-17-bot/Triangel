@@ -17,7 +17,7 @@ form.addEventListener('submit',function(e){
     if(aValue>0 && bValue>0){
         error.style.display = "none"
         output.style.display="block"
-        document.getElementById("output").innerHTML = c
+        document.getElementById("output").innerHTML = c.toPrecision(5)
     }else{
         output.style.display= "none"
         error.style.display= 'block'
